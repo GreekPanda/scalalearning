@@ -1,0 +1,1 @@
+Scala learning of sample code, it's for recording of learing Scala. 
