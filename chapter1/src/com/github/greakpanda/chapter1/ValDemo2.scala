@@ -10,6 +10,8 @@ object ValDemo2 {
   def main(args: Array[String]): Unit = {
     //create a new class
     //Class's member should be var
+    //1. val means can't modify variable
+
     val dog = new Dog
     dog.age = 25
     dog.name = "charlie"
