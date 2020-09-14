@@ -7,6 +7,9 @@ package com.github.greekpanda.chapter5
  */
 object LazyDemo {
   def main(args: Array[String]): Unit = {
+    //1. Lazy只能修改val，不能修饰var
+    //2. 有lazy修饰的变量，会延迟运行或者加载，只有在真正需要的时候才会出现
+    //3. 根据业务逻辑，如果有大量的数据需要分析时，考虑到不需要实时的分析出现，此时可以用lazy进行修改
     lazy val ret = sum(10, 20)
     println("----->11111")
     println(s"result is ${ret}")
